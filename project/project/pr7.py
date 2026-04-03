@@ -70,7 +70,7 @@ def main():
             mod_name = input("Enter module name (e.g., math, random): ")
             try:
                 mod = importlib.import_module(mod_name)
-                print(f"Attributes: {dir(mod)[:10]}...") # Showing first 10 for brevity
+                print(f"Attributes: {dir(mod)[:10]}...")
             except:
                 print("Module not found.")
         elif choice == '7':
